@@ -1,0 +1,81 @@
+html {
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(#4682B4, #D2691E);
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding:30px;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn, #unshift-btn {
+    background-color: white;
+    color: black;
+}
+#push-btn:hover, #unshift-btn:hover {
+    background-color: grey;
+    color: black;
+}
+#push-btn:active, #unshift-btn:active {
+    background-color: white;
+    color: black;
+}
+#shift-btn,#pop-btn {
+    background-color: teal;
+}
+#shift-btn:hover ,#pop-btn:hover {
+    background-color: lightseagreen;
+}
+#shift-btn:active,#pop-btn:active {
+    background-color: teal;
+}
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    border: none;
+    height: 60px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: darkcyan;
+    width: 35%;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 0 0;
+    width:100%;
+    height: 40px;
+}
+
